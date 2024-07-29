@@ -7,7 +7,7 @@
  + scss
 
 ## Детали
- + в проекте применены хуки useState и useRef
+ + в проекте применены хуки useState, useRef и useEffect
  + курс валют получаются по api https://www.cbr-xml-daily.ru/daily_json.js
  + в папке dist собранный проект
 
