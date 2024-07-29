@@ -1,0 +1,36 @@
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: min-content;
+
+    &__list {
+        overflow: hidden;
+        width: min-content;
+        display: flex;
+        flex-direction: row;
+
+        border: 2px solid rgba(135, 135, 135, 0.18);
+        border-radius: 10px;
+    }
+
+    &__item {
+        cursor: pointer;
+        padding: 10px 20px;
+        color: black;
+
+        &--accent {
+            background-color: #25c982;
+            color: white;
+        }
+    }
+
+    &__input {
+        border: 2px solid rgba(135, 135, 135, 0.18);
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 25px;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+}
